@@ -1,5 +1,8 @@
-
-
+CREATE TABLE Autor (
+    ID INT PRIMARY KEY,
+    nume VARCHAR(100),
+    prenume VARCHAR(100)
+);
 CREATE TABLE Adresa (
     ID INT PRIMARY KEY,
     strada VARCHAR(100),
